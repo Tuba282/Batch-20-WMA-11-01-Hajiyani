@@ -1,0 +1,25 @@
+
+web types :
+	frontend-
+	backend -
+	database -
+
+Frontend-
+ html - structure - hyper text markup 	language
+ CSS - styling - beautifully 	presentation
+ Javascript - funcationality
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+
+	</body>
+</html>
+
+
+
+
+
