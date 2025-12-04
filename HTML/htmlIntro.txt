@@ -1,0 +1,49 @@
+github.com/Tuba282---Batch-20-Hajiyani
+
+A---a---case sensitivity
+
+HTML---  hypertext markup language -- Tim Berners Lee
+	linking - sharing
+	<></> -- markups - elements - tags
+	
+ 	<body>--opeing tag 
+
+	</body>--closing tag
+
+	<body attribute>--extra information
+	<body lang="en" > ---lang-- attribute name
+			  ---"en"--value
+
+IDE - Integrated Developemnt Envirnment - code - VSCODE - 
+
+index -- root file
+index.html -- after dot (file)
+	i.e html.html
+	    css.style
+   	javascript.js
+
+
+Git - Github 
+ git-- version control system 
+	.versions control
+	.data track (previous/current)
+	.system - download - install
+
+github-- digitilize code secure 
+	.code cloud save
+	.production level work
+	.collabration (team work) 
+	.web usage
+
+
+
+
+
+
+
+
+
+
+
+
+
