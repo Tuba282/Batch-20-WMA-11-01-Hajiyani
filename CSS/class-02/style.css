@@ -1,0 +1,80 @@
+/* *{
+    background-color: aqua;
+}
+
+body{
+    background-color: burlywood;
+} */
+
+/* h2,
+p {
+  color: brown;
+  font-size: 30px;
+}
+
+h2{
+    font-size: 20px;
+} */
+
+/*  */
+
+/* .heading-03 {
+  color: green;
+  font-size: 50px;
+} */
+
+/* #heading-05 { */
+/* this is how we target our id's in css */
+/* background-color: darkslateblue;
+  color: whitesmoke;
+} */
+
+/* #heading {
+  font-size: 20px;
+  color: darkgrey;
+  color: limegreen;
+}
+
+div > span {
+  font-size: 30px;
+  color: gray;
+}
+
+div i {
+  font-size: 50px;
+  color: coral;
+}
+
+.heading-01 + p {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.heading-04~p {
+  font-size: 25px;
+  color: chartreuse;
+} */
+
+/* .headingCSS {
+  font-size: 50px;
+  color: white;
+  background-color: chocolate;
+}
+#para,
+#para1,
+#para2,
+#para3,
+#para4,
+#para5,
+#para6 {
+  font-size: 20px;
+  color: crimson;
+  font-style: italic;
+} */
+
+h1{
+    color: blueviolet;
+    background-color: #ff69b4;
+    /* color: #2afa9a; */
+    /* color: rgb(244, 120, 180); */
+}
