@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* .parent {
+  width: 300px;
+  height: 300px;
+  margin: 10% auto;
+  background-color: cornflowerblue;
+}
+.child {
+  width: 60px;
+  height: 60px;
+  display: inline;
+  padding: 3px;
+  border: 2px solid gray;
+  background-color: azure;
+} */
+.parent {
+  width: 300px;
+  height: 300px;
+  margin: 10% auto;
+  background-color: cornflowerblue;
+}
+.child {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  padding: 3px;
+  border: 2px solid gray;
+  background-color: azure;
+}
+
+.child-3 {
+  display: none;
+  /* visibility: hidden; */
+}
+
+li {
+  font-size: 20px;
+}
+li i {
+  color: goldenrod;
+  font-size: 15px;
+}
+.icons {
+  border: 2px solid black;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10% auto;
+  border-radius: 30px;
+}
+.icon {
+  display: inline;
+}
+
+.ParentBox {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  border: 2px solid rgba(0, 0, 0, 0.493);
+  border-radius: 12px;
+  /* box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.629) inset; */
+  transition: all 1s ease-in 0s;
+  box-shadow:
+    rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  /* background-color: rgba(236, 78, 157, 0.764); */
+}
+/* .ParentBox:hover {
+  box-shadow:
+    blue 0px 0px 0px 2px inset,
+    rgb(255, 255, 255) 10px -10px 0px -3px,
+    rgb(31, 193, 27) 10px -10px,
+    rgb(255, 255, 255) 20px -20px 0px -3px,
+    rgb(255, 217, 19) 20px -20px,
+    rgb(255, 255, 255) 30px -30px 0px -3px,
+    rgb(255, 156, 85) 30px -30px,
+    rgb(255, 255, 255) 40px -40px 0px -3px,
+    rgb(255, 85, 85) 40px -40px;
+} */
+.ParentBox img {
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+}
