@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.outer {
+  width: 400px;
+  height: 300px;
+}
+.outer .inner {
+  width: 100%;
+  height: 48%;
+  display: flex;
+}
+.inner-2 {
+  border-radius: 0 0 20px 20px;
+  background-color: #2c0f0c;
+}
+.inner div {
+  width: 200px;
+  height: 145px;
+}
+.inner .div-1 {
+  border-radius: 20px 0px 0 0;
+  background-color: #3b1a12;
+}
+.inner .div-2 {
+  border-radius: 0px 20px 0 0px;
+  background-color: #4b2418;
+}
+
+/* global */
+:root {
+  --h1FontSize: 40px;
+  --h2FontSize: 30px;
+  --normalText: 20px;
+  --chocolateBrown: #2c0f0c;
+  --mudBrown: #d9b7a0;
+  /* --mudBrown: #3b1a12; */
+  --woodenBrown: #d9b7a0;
+}
+
+h1 {
+  font-size: var(--h1FontSize);
+}
+p {
+  font-size: var(--normalText);
+}
+
+.outer-2 .inner-2 {
+  background-color: var(--woodenBrown);
+}
+.outer-3 .inner-2 {
+  background-color: var(--mudBrown);
+}
+.outer-4 .inner-2 {
+  background-color: var(--chocolateBrown);
+}
+
+/* local */
+
+.outer-4 {
+  --pink: #e0218a;
+  --red: #560d0d;
+  --green: #063e2a;
+}
+.outer-4 .inner-2 {
+  background-color: var(--green);
+}
+
+/* ---CSS Background Gradient----- */
+.box {
+  width: 70vw;
+  height: 70vh;
+  margin: 0 auto;
+  /* background: linear-gradient(to right, #063e2a  20%,#d9b7a0 50%); */
+  /* background: linear-gradient(to left, #063e2a, #d9b7a0); */
+  /* background: linear-gradient(#063e2a,#3e14068e,#d9b7a0) ; */
+  background: #2dbdc5;
+  background: linear-gradient(
+    13deg,
+    rgba(45, 189, 197, 1) 0%,
+    rgba(48, 25, 107, 1) 100%
+  );
+}
