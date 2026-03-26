@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 850px;
+  height: 570px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  background-color: blueviolet;
+  /* linear + radial gradient */
+  /* background: linear-gradient(#069594 , #c4611b, #ffce1b); */
+  /* background: linear-gradient(120deg,#069594 , #c4611b, #ffce1b); */
+  /* background: linear-gradient(#066c95b0 20%, #c4611b 50%, #ffce1b 80%); */
+  /* background: linear-gradient(to bottom, #066c95b0 20%, #c4611b 50%, #ffce1b 80%); */
+  /* background: radial-gradient(#0D4E37 , #0B1F16 , #0B150F) ; */
+  /* background: radial-gradient(#0D4E37 30%, #0B1F16 50%, #0B150F) ; */
+  /* background: radial-gradient(circle,#069594 , #c4611b, #ffce1b) ; */
+  /* background: radial-gradient(circle,#069594 , #c4611b, #ffce1b) ; */
+  /* background: radial-gradient(circle at right,#caf703 30% , #0B1F16 50%, #0B150F) ; */
+  background: #2a7b9b;
+  background: linear-gradient(
+    152deg,
+    rgba(42, 123, 155, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(131, 205, 118, 1) 62%,
+    rgba(237, 221, 83, 1) 100%
+  );
+}
+h1{
+    font-size:60px;
+    color: white;
+    text-align: center;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

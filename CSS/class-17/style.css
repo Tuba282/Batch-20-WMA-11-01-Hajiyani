@@ -1,0 +1,94 @@
+/* .box {
+  width: 150px;
+  height: 150px;
+  margin: 10% auto;
+  animation-name: simpleAnim;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  background-color: rgb(0, 128, 128);
+}
+
+@keyframes simpleAnim {
+  from {
+    border-radius: 0%;
+    background-color: rgb(177, 38, 38);
+  }
+  to {
+    border-radius: 50%;
+    background-color: rgb(175, 177, 38);
+  }
+} */
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin: 10% auto;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  /* animation-name: circle;
+  animation-duration: 3s; */
+  transition: all ease 1s;
+  background-color: rgb(0, 128, 128);
+}
+.box:hover {
+  transform: rotate(50deg);
+  /* transform: translateY(120px); */
+  /* transform: scale(0.5); */
+  background-color: purple;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  margin: 10% 0;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 50px;
+  color: white;
+  animation: circle 3s linear infinite alternate;
+  background-color: rgb(0, 128, 128);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@keyframes circle {
+  0% {
+    transform: translate(0px) rotate(0deg) scale(1);
+    background-color: red;
+    border-radius: 50%;
+  }
+  50% {
+    transform: translate(400px) rotate(180deg) scale(1.5);
+    background-color: green;
+    border-radius: 0%;
+  }
+
+  100% {
+    transform: translate(800px) rotate(360deg) scale(2);
+    background-color: yellow;
+    border-radius: 50%;
+  }
+}
+
+.parent {
+  width: 150px;
+  height: 150px;
+  margin: 10% auto;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 50px;
+  color: white;
+  background-color: rgb(0, 128, 128);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.animate__animated {
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+}
