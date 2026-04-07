@@ -1,0 +1,23 @@
+@media (max-width: 880px) {
+  .white {
+    width: 100vw;
+    height: auto;
+  }
+  .white .box {
+    height: 200px;
+  }
+  .white .box-1 {
+    flex-direction: column;
+  }
+  .box-1 .org {
+    width: 100%;
+  }
+  .white .box-2 {
+    flex-direction: column;
+    height: 300px;
+  }
+  .box-2 .yel,
+  .box-2 .pur {
+    width: 100%;
+  }
+}

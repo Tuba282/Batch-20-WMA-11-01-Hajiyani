@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  border-radius: 10px;
+}
+/* html,
+body {
+  background-color: rgba(0, 0, 0, 0.342);
+} */
+.white {
+  width: 700px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  margin: 50px auto;
+  border: 10px solid gray;
+  background-color: white;
+  transition: all ease 0.5s;
+  box-shadow:
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/* box */
+.white .box {
+  width: 100%;
+  height: 20%;
+}
+
+.white .box-2 {
+  height: 57%;
+}
+/* box-1 */
+.white .box-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.box-1 .org {
+  height: 100%;
+  background-color: #ff4945;
+}
+.box-1 .org-1 {
+  width: 69%;
+}
+.box-1 .org-2 {
+  width: 29%;
+}
+
+/* box-2 */
+.white .box-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.box-2 .yel,
+.box-2 .pur {
+  width: 50%;
+  height: 100%;
+}
+
+.box-2 .yel {
+  background-color: #ffa931;
+}
+.box-2 .pur {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.box-2 .pur-1,
+.box-2 .pur-2 {
+  width: 100%;
+  height: 49%;
+  background-color: #9b0579;
+}
+
+/* box-3 */
+.white .box-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.box-3 .cyan {
+  width: 30%;
+  height: 100%;
+  background-color: #00778f;
+}
+.box-3 .cyan-2 {
+  width: 45%;
+}
+
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* media Query */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+
+

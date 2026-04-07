@@ -1,0 +1,8 @@
+@media (max-Width:450px) {
+  .box-3 .cyan-1{
+    display: none;
+  }
+  .box-3 .cyan-2{
+    flex-grow: 1;
+  }
+}

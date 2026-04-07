@@ -1,0 +1,36 @@
+.parent {
+  width: 250px;
+  height: 250px;
+  margin: 10% auto;
+  transition: all ease 0.5s;
+  background-color: #ffa931;
+}
+
+/* @media (screen) {} */
+/* @media only screen and (screen) {} */
+/* @media only screen and (screen) and (screen){} */
+/* @media (orientation) {} */
+
+/* @media (orientation: portrait) {
+  .parent {
+    background-color:#00778f;
+  }
+} */
+
+/* @media (max-width: 700px) {
+  .parent {
+    background-color: red;
+  }
+} */
+
+/* @media only screen and (min-width: 700px) {
+  .parent {
+    background-color: #000000;
+  }
+} */
+
+/* @media only screen and (max-width: 700px) and (min-width: 440px) {
+  .parent {
+    border-radius: 50%;
+  }
+} */
