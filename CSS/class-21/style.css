@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&display=swap");
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1920px;
+}
+.cardSec {
+  max-width: 1200px;
+  min-height: 10vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: center;
+  background-color: yellow;
+}
+.card {
+  width: 390px;
+  height: 390px;
+  border-radius: 15px;
+  border: 2px solid white;
+  background-color: brown;
+} */
+
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* -------------------------------------- */
+/* @media (max-width: 1200px) {
+  .card {
+    width: 49%;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+  .cardSec {
+    padding: 10px;
+  }
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Advent Pro", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1920px;
+}
+.cardSec {
+  max-width: 1500px;
+  min-height: 10vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  align-content: center;
+  background-color: rgb(44, 44, 43);
+}
+.card {
+  width: 390px;
+  height: 390px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.card .img {
+  width: 100%;
+  height: 75%;
+  padding: 20px;
+  border-radius: 10px 10px 0 0;
+  background-color: #f0f0f0;
+  border: 3px solid white;
+}
+.img .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sellers b {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.sellers i {
+  color: burlywood;
+}
+.heart {
+  font-size: 25px;
+}
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .text {
+  width: 100%;
+  height: 25%;
+
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  background-color: white;
+  border: 3px solid white;
+}
+.text .addToCart {
+  background-color: black;
+  color: white;
+  padding: 10px 12px;
+  border-radius: 30px;
+}
