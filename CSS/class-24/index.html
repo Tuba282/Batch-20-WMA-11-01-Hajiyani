@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cafe Street</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-xxl border overflow-hidden">
+        <div class="container-fluid position-relative p-1 p-md-5" style="background-color: var(--lightColor);">
+            <img src="./Assets/bg_img_hero.png" width="400" height="250" class=" position-absolute top-0 end-0" alt="">
+            <!-- navbar -->
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./Assets/logo_coffe.png" alt="logo_coffe">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a style="color: var(--orange);" class="nav-link fw-semibold active" href="#">About
+                                    Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="#">Our Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fw-semibold" href="#">Delivery</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex position-relative" role="search">
+                            <img src="./Assets/akar-icons_search.png" class="position-absolute navSearch"
+                                alt="akar-icons_search">
+                            <input class="form-control me-2 rounded-pill ps-5 w-75" type="search" placeholder="Search"
+                                aria-label="Search" />
+                            <img src="./Assets/icons_cart.png" width="" height="" alt="">
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <!-- heroSection -->
+            <div
+                class="heroSection row flex-lg-row-reverse align-items-center justify-content-center justify-content-lg-start g-5 py-5">
+                <div class="col-10 col-lg-6">
+                    <img src="./Assets/img-hero.png" class="imgHero d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                        width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-5 text-center text-lg-start">
+                    <h1 class="display-5 fw-bold text-body-emphasis mb-3">Enjoy your <span
+                            style="color: var(--orange);">coffee</span> before your activity</h1>
+                    <p class="lead">Boost your productivity and build your mood with a glass of coffee in the morning
+                    </p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-center justify-content-lg-start">
+                        <button type="button"
+                            class="btn btn-lg d-flex justify-content-center align-items-center gap-3 rounded-pill px-4 me-md-2 text-light"
+                            style="background-color: var(--brown);">Primary <img src="./Assets/heroBtn.png"
+                                alt=""></button>
+                        <button type="button" class="btn px-4 fw-semibold"
+                            style="color: var(--orange);">Default</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container position-relative" style="padding-top: 30px; padding-bottom: 90px;">
+                <!-- <img src="./Assets/bg_img_hero-(1).png" width="400" height="300"
+                    class=" position-absolute bottom-0 start-0 z-1" alt=""> -->
+                <h2 class="position-relative display-4 fw-bold z-2">Popular <span
+                        class="border-5 border-bottom border-warning-subtle">Now</span></h2>
+
+            </div>
+            <div class="container-md rounded-5 row row-cols-1 row-cols-md-2 row-cols-xl-3 mb-3 px-0 px-xl-5 justify-content-center align-items-center text-center"
+                style="background-color:var(--dimColor); ">
+                <div class="col justify-content-center align-items-center d-grid  coffeeCard" style="position: relative; top: -70px;">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="width: 335px;">
+                        <div class="grid justify-content-center align-items-center p-3">
+                            <img src="./Assets/img_product-1.png" alt="" class="img-fluid mb-4">
+                            <div class="mb-3 d-flex justify-content-between fw-bold">
+                                <span>Vanilla Latte</span>
+                                <span>21 K</span>
+                            </div>
+                            <div class="mb-3 d-flex justify-content-between">
+                                <span>
+                                    <div class="btn btn-sm fw-semibold px-3 fs-6 rounded-2"
+                                        style="border: 2px solid var(--orange); color: var(--orange);">Hot</div>
+                                    <div class="btn btn-sm fw-semibold px-3 fs-6 rounded-2"
+                                        style="border: 2px solid var(--dimColor); color: var(--dimColor);">Cold</div>
+                                </span>
+                                <img src="./Assets/Frame-5.png" width="30" height="30" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col justify-content-center align-items-center d-grid  coffeeCard" style="position: relative; top: -70px;">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="width: 335px;">
+                        <div class="grid justify-content-center align-items-center p-3">
+                            <img src="./Assets/img_product-1.png" alt="" class="img-fluid mb-4">
+                            <div class="mb-3 d-flex justify-content-between fw-bold">
+                                <span>Vanilla Latte</span>
+                                <span>21 K</span>
+                            </div>
+                            <div class="mb-3 d-flex justify-content-between">
+                                <span>
+                                    <div class="btn btn-sm fw-semibold px-3 fs-6 rounded-2"
+                                        style="border: 2px solid var(--orange); color: var(--orange);">Hot</div>
+                                    <div class="btn btn-sm fw-semibold px-3 fs-6 rounded-2"
+                                        style="border: 2px solid var(--dimColor); color: var(--dimColor);">Cold</div>
+                                </span>
+                                <img src="./Assets/Frame-5.png" width="30" height="30" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col justify-content-center align-items-center d-grid  coffeeCard" style="position: relative; top: -70px;">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="width: 335px;">
+                        <div class="grid justify-content-center align-items-center p-3">
+                            <img src="./Assets/img_product-1.png" alt="" class="img-fluid mb-4">
+                            <div class="mb-3 d-flex justify-content-between fw-bold">
+                                <span>Vanilla Latte</span>
+                                <span>21 K</span>
+                            </div>
+                            <div class="mb-3 d-flex justify-content-between">
+                                <span>
+                                    <div class="btn btn-sm fw-semibold px-3 fs-6 rounded-2"
+                                        style="border: 2px solid var(--orange); color: var(--orange);">Hot</div>
+                                    <div class="btn btn-sm fw-semibold px-3 fs-6 rounded-2"
+                                        style="border: 2px solid var(--dimColor); color: var(--dimColor);">Cold</div>
+                                </span>
+                                <img src="./Assets/Frame-5.png" width="30" height="30" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

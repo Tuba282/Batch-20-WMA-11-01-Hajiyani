@@ -1,0 +1,21 @@
+:root {
+  --orange: #FF902B;
+  --brown:#2F2105;
+  --lightColor:#F6EBDA;
+  --dimColor:#F9D9AA;
+}
+
+.navSearch {
+  top: 8px;
+  left: 10px;
+}
+.heroSection{
+  margin: 30px 0 !important;
+}
+.imgHero{
+  position: relative;
+  z-index: 2;
+}
+.Popular{
+  z-index: 2 !important;
+}
