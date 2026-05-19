@@ -47,7 +47,7 @@ var propertyName;
 // i.e ILiveInKarachi
 
 // - Snake Case
-// i.e pick_mobile - doing_work - property_name
+// i.e pick_mobile - doing_work - property_name 
 // i.e my_name_is_madiha
 
 
@@ -75,7 +75,7 @@ console.log(num_1 % "5");//2 - number
 
 // -- Data Types
 
-// JS mainly 2 types - 8 dataTypes (2 Categories)
+// JS mainly - 8 dataTypes (2 Categories)
 
 // Primitive DataType - direct value - (unmutable) - notChange
 // String -- ""
@@ -83,7 +83,7 @@ console.log(num_1 % "5");//2 - number
 // Boolean -- true/false
 // undefined 
 // null      -- (null !== 0)
-// Symbol()
+// Symbol() 
 // Non-Primitive DataType - reference - (mutable) - changes possible
 // object
 // Array
