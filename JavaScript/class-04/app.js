@@ -5,7 +5,7 @@
 // --- getting string input
 // var userName = prompt(" Enter Your name ...");
 // var userID = prompt(" Enter Your ID ... ");
-// console.log("Welcome " + userName + "With ID " + userID);
+// console.log("Welcome " + userName + " With ID " + userID);
 
 // --- getting Number input
 // var num1= +prompt(" Enter first  Number ...");//10
@@ -19,7 +19,7 @@
 //  == === != !== < > <= >=
 //  = -> assignment operator
 
-var Tuba = "234";
+// var Tuba = "234";
 // == (value)
 // console.log(5 == 5);//true
 // console.log(5 == "5");//false❌ true✔
@@ -57,7 +57,6 @@ console.log("abc" !== "abc");//false
 
 // if (2 != 2) {
 //     console.log("Correct Answer" , 2+2);
-
 // }
 
 // console.log("After Condition");
@@ -65,18 +64,17 @@ console.log("abc" !== "abc");//false
 // console.log("After Condition");
 // console.log("After Condition");
 
-var isplaced = true;
+// var isplaced = true;
 
-if (isplaced) {
-  console.log("Thank you for Order ");
-}
+// if (isplaced) {
+//   console.log("Thank you for Order ");
+// }
 
 // truthy - value
 // 1/-1  , " " , true , {} , []
 
 // if([{}]){
 //     console.log("Condition is true");
-
 // }
 
 // Falsey Values
@@ -92,7 +90,6 @@ if (isplaced) {
 //   console.log("Executed successfully ...");
 // }
 
-
 // var order = +prompt("Enter Quantity ");//0
 // var inStock = 7;
 // if (order <= inStock) {
@@ -102,9 +99,9 @@ if (isplaced) {
 
 
 
-var city = prompt("Where you live in ");//0
+// var city = prompt("Where you live in ");//0
 
-if (city == "karachi") {
-  console.log("Karachi wale ho ");
-}
-console.log("Pakistani");
+// if (city == "karachi") {
+//   console.log("Karachi wale ho ");
+// }
+// console.log("Pakistani");
