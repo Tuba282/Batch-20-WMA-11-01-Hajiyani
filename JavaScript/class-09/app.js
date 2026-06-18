@@ -176,7 +176,7 @@ var array1 = ["A", "B", "C", 5, 4, 6, 7, 0]
 
 
 
-// Q1  create an array of your own choice, \
+// Q1  create an array of your own choice, 
 // Array elemts 7
 // console array orininal result
 
@@ -185,8 +185,8 @@ var array1 = ["A", "B", "C", 5, 4, 6, 7, 0]
 // then unshift()                       
 // then push()                                      
 // then pop()                       
-// then splice () 4 elment center index 3-5         
-// then slice  () 4 elment center index 3-5             
+// then splice ()  center index 3-5         
+// then slice  ()  center index 3-5             
 // then push()                                      
 // then unshift()                               
 // then pop() method apply                          
