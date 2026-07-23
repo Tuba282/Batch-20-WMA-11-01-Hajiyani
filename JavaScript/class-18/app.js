@@ -20,7 +20,6 @@ function getEmail1(element){
     email.value = "xyz@gmail.com"
     console.log(email.value);
     
-
     // console.log(email);//<input type="email" id="email" />
     console.log(element);
 }
